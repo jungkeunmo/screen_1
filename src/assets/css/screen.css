@@ -22,19 +22,51 @@
   flex-direction: row;
 }
 
-.main__col1__sec1,
-.main__col1__sec2,
+.main__col1__sec1 {
+  width: 33.3333%;
+  height: 400px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  background-image: url("https://images.unsplash.com/photo-1619041038964-2410837df011?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main__col1__sec2 {
+  width: 33.3333%;
+  height: 400px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  background-image: url("https://images.unsplash.com/photo-1619089515721-526059a4192c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .main__col1__sec3 {
   width: 33.3333%;
   height: 400px;
-  background-color: #ffeaa7;
   margin: 0px 10px;
+  border-radius: 10px;
+  background-image: url("https://images.unsplash.com/photo-1619020986421-2ab55b319c82?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .main__col2 {
   width: 100%;
   height: 250px;
   background-color: #008489;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__col2__txt1,
+.main__col2__txt2 {
+  font-size: 22px;
+  color: #fff;
 }
 
 .main__col3 {
@@ -47,13 +79,35 @@
 .main__col3__sec1 {
   width: 50%;
   height: 500px;
-  background-color: #fafbfc;
+  background-image: url("https://images.unsplash.com/photo-1618923052408-25b8984d8ce8?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .main__col3__sec2 {
   width: 50%;
   height: 500px;
   background-color: #ffeaa7;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__col3__sec2__txt1 {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0px 0px 10px;
+}
+
+.main__col3__sec2__txt2,
+.main__col3__sec2__txt3,
+.main__col3__sec2__txt4 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  padding: 0px 0px 6px 10px;
 }
 
 .footer {
